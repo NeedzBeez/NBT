@@ -1,0 +1,55 @@
+.masthead {
+  height: 100vh;
+  /* background-image: url("../../assets/image/banner.png"); */
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.desc {
+  text-align: justify;
+  color: black;
+}
+
+.img {
+  border-radius: 10px;
+}
+
+.custom-shape-divider-bottom-1641684795 {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  overflow: hidden;
+  line-height: 0;
+  transform: rotate(180deg);
+}
+
+.custom-shape-divider-bottom-1641684795 svg {
+  position: relative;
+  display: block;
+  width: calc(124% + 1.3px);
+  height: 188px;
+}
+
+.custom-shape-divider-bottom-1641684795 .shape-fill {
+  fill: #373c3e;
+}
+
+@media (min-width: 1000px) {
+  .welcome {
+    font-size: 3rem;
+  }
+  .tittle {
+    font-size: 5rem;
+  }
+}
+
+@media (max-width: 1000px) {
+  .welcome {
+    font-size: 2rem;
+  }
+  .title-nft {
+    font-size: 40px !important;
+  }
+}
